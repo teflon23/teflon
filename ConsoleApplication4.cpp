@@ -16,18 +16,9 @@ int main()
 		for (int i = 2;i < sayi;i++) {
 
 			fib[i] = fib[i - 1] + fib[i - 2];
-			
-
-
-
-		}
+			}
 		cout << fib[i] << endl;
-        if (sayi > 1) {
-        for (int i = 2; i < sayi; i++) {
-        fib[i] = fib[i - 1] + fib[i - 2];
-        }
-        cout << fib[sayi - 1] << endl;
-        }
+      
 	}
 	else {
 		cout << "1" << endl;
